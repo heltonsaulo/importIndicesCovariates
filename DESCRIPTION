@@ -1,0 +1,29 @@
+Package: importIndicesCovariates
+Type: Package
+Title: Download and Consolidate Economic Time Series
+Version: 0.1.0
+Author: Helton Saulo, Gustavo Oliveira, Rodrigo
+Maintainer: Helton Saulo <heltonsaulo@gmail.com>
+Description: Consolidates and returns economic time series from Brazilian public sources (BCB, IBGE, CEPEA, etc.).
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    lubridate,
+    readxl,
+    writexl,
+    httr,
+    xml2,
+    rvest,
+    data.table,
+    sidrar,
+    ipeadatar,
+    yahoofinancer,
+    GetBCBData,
+    purrr,
+    reshape2
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
